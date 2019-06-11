@@ -1,6 +1,7 @@
 :root {
     --blue: #81c2c5;
     --grey: #777777;
+    --red: #E25178;
 }
 
 body {
@@ -17,4 +18,16 @@ body {
     width: 200px;
     height: 100px;
     transform: rotate(-50deg);
+}
+
+.party-hat {
+    position: absolute;
+    top: -25px;
+    left: 130px;
+    width: 80px;
+    height: 80px;
+    background: var(--red);
+    -webkit-clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+    transform: rotate(45deg);
 }
