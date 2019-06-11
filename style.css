@@ -3,6 +3,7 @@
     --grey: #777777;
     --red: #E25178;
     --white: #ffffff;
+    --black: #000000;
 }
 
 body {
@@ -116,6 +117,39 @@ body {
     top: -3px;
     left: 45px;
     z-index: 1;
+}
+
+.ear {
+    position: absolute;
+    width: 60px;
+    height: 90px;
+    border-radius: 100%;
+    background: var(--grey);
+    opacity: 0.85;
+    top: 69px;
+    left: 80px;
+}
+
+.eye {
+    width: 50px;
+    height: 60px;
+    background: var(--white);
+    border-radius: 100%;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    z-index: 4;
+}
+
+.iris {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    background: var(--black);
+    z-index: 5;
 }
 
 
