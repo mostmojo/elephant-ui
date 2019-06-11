@@ -20,13 +20,14 @@
     height: 5px;
     border-radius: 100%;
     background: var(--white);
+    animation: animBlock 2.5s 3 cubic-bezier(0.3, 0.27, 0.07, 1.64);
 }
 
 .polka--one {
     top: 32px;
     left: 42px;
-    width: 5px;
-    height: 5px;
+    width: 6px;
+    height: 6px;
     border-radius: 100%;
     background: var(--white);
 }
@@ -34,8 +35,8 @@
 .polka--two {
     top: 32px;
     left: 42px;
-    width: 5px;
-    height: 5px;
+    width: 8px;
+    height: 8px;
     border-radius: 100%;
     background: var(--white);
 }
@@ -43,8 +44,8 @@
 .polka--three {
     top: 48px;
     left: 28px;
-    width: 5px;
-    height: 5px;
+    width: 6.5px;
+    height: 6.5px;
     border-radius: 100%;
     background: var(--white);
 }
@@ -61,8 +62,8 @@
 .polka--five {
     top: 48px;
     left: 67px;
-    width: 5px;
-    height: 5px;
+    width: 5.5px;
+    height: 5.5px;
     border-radius: 100%;
     background: var(--white);
 }
