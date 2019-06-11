@@ -20,6 +20,7 @@ body {
     width: 200px;
     height: 100px;
     transform: rotate(-50deg);
+    animation: drop 2.5s 3 cubic-bezier(0.02, 0.01, 0.21, 1);
 }
 
 .party-hat {
@@ -33,6 +34,7 @@ body {
     clip-path: polygon(50% 0, 0% 100%, 100% 100%);
     transform: rotate(45deg);
     z-index: 2;
+    animation: hatFlip 2.5s 3 cubic-bezier(0.3, 0.27, 0.07, 1.64);
 }
 
 .polka {
@@ -174,7 +176,7 @@ body {
 
 .leg--right {
     position: absolute;
-    top: 185px;
+    top: 180px;
     left: 76px;
     width: 20px;
     height: 40px;
@@ -182,8 +184,19 @@ body {
     transform: rotate(50deg);
 }
 
+@keyframes drop {
+    50% {
+        animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+        transform: translateY(-100px);
+    }
+}
 
-
+@keyframes hatFlip {
+    50% {
+      animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+      transform: translateY(-100px);
+    }
+}
 
 
 
