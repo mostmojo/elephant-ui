@@ -25,18 +25,19 @@ body {
     position: absolute;
     top: -25px;
     left: 130px;
-    width: 80px;
-    height: 80px;
+    width: 110px;
+    height: 72px;
     background: var(--red);
     -webkit-clip-path: polygon(50% 0, 0% 100%, 100% 100%);
     clip-path: polygon(50% 0, 0% 100%, 100% 100%);
     transform: rotate(45deg);
+    z-index: 2;
 }
 
 .polka {
     position: absolute;
-    top: 18px;
-    left: 36px;
+    top: 25px;
+    left: 60px;
     width: 5px;
     height: 5px;
     border-radius: 100%;
@@ -81,7 +82,7 @@ body {
 
 .polka--five {
     top: 48px;
-    left: 54px;
+    left: 67px;
     width: 5px;
     height: 5px;
     border-radius: 100%;
@@ -96,3 +97,28 @@ body {
     border-radius: 100%;
     background: var(--white);
 }
+
+.trunk {
+    width: 90px;
+    height: 150px;
+    background: var(--grey);
+    -webkit-clip-path: polygon(57% 0, 64% 48%, 100% 100%, 42% 81%, 0% 50%, 0 0);
+    clip-path: polygon(57% 0, 64% 48%, 100% 100%, 42% 81%, 0% 50%, 0 0);
+    transform: rotate(65deg);
+}
+
+.behind {
+    position: absolute;
+    width: 152px;
+    height: 152px;
+    border-radius: 100%;
+    background: var(--grey);
+    top: -3px;
+    left: 45px;
+    z-index: 1;
+}
+
+
+
+
+
