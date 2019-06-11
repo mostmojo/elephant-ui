@@ -1,0 +1,77 @@
+.party-hat {
+    position: absolute;
+    top: -25px;
+    left: 130px;
+    width: 110px;
+    height: 72px;
+    background: var(--red);
+    -webkit-clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+    transform: rotate(45deg);
+    z-index: 2;
+    animation: hatFlip 2.5s 3 cubic-bezier(0.3, 0.27, 0.07, 1.64);
+}
+
+.polka {
+    position: absolute;
+    top: 25px;
+    left: 60px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: var(--white);
+}
+
+.polka--one {
+    top: 32px;
+    left: 42px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: var(--white);
+}
+
+.polka--two {
+    top: 32px;
+    left: 42px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: var(--white);
+}
+
+.polka--three {
+    top: 48px;
+    left: 28px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: var(--white);
+}
+
+.polka--four {
+    top: 68px;
+    left: 48px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: var(--white);
+}
+
+.polka--five {
+    top: 48px;
+    left: 67px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: var(--white);
+}
+
+.polka--six {
+    top: 66px;
+    left: 20px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: var(--white);
+}

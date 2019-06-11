@@ -1,0 +1,12 @@
+.container {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: -150px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    transform: rotate(-50deg);
+    animation: drop 2.5s 3 cubic-bezier(0.02, 0.01, 0.21, 1);
+}

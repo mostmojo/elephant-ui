@@ -1,0 +1,19 @@
+.trunk {
+    width: 90px;
+    height: 150px;
+    background: var(--grey);
+    -webkit-clip-path: polygon(57% 0, 64% 48%, 100% 100%, 42% 81%, 0% 50%, 0 0);
+    clip-path: polygon(57% 0, 64% 48%, 100% 100%, 42% 81%, 0% 50%, 0 0);
+    transform: rotate(65deg);
+}
+
+.behind {
+    position: absolute;
+    width: 152px;
+    height: 152px;
+    border-radius: 100%;
+    background: var(--grey);
+    top: -3px;
+    left: 45px;
+    z-index: 1;
+}
