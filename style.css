@@ -2,6 +2,7 @@
     --blue: #81c2c5;
     --grey: #777777;
     --red: #E25178;
+    --white: #ffffff;
 }
 
 body {
@@ -30,4 +31,68 @@ body {
     -webkit-clip-path: polygon(50% 0, 0% 100%, 100% 100%);
     clip-path: polygon(50% 0, 0% 100%, 100% 100%);
     transform: rotate(45deg);
+}
+
+.polka {
+    position: absolute;
+    top: 18px;
+    left: 36px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: var(--white);
+  }
+
+.polka--one {
+    top: 32px;
+    left: 42px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: var(--white);
+}
+
+.polka--two {
+    top: 32px;
+    left: 42px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: var(--white);
+}
+
+.polka--three {
+    top: 48px;
+    left: 28px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: var(--white);
+}
+
+.polka--four {
+    top: 68px;
+    left: 48px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: var(--white);
+}
+
+.polka--five {
+    top: 48px;
+    left: 54px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: var(--white);
+}
+
+.polka--six {
+    top: 66px;
+    left: 20px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: var(--white);
 }
